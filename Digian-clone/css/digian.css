@@ -1,0 +1,100 @@
+body{
+    margin: 0px;
+    
+}
+nav{
+    background-color: purple;
+    display: flex;
+    width: 100%s;
+   
+}
+.navbrand{
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 10px ;
+}
+nav a{
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    list-style: none;
+    color: white;
+    flex-grow: 2;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    margin-left: 50px;
+}
+li a{
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+}
+.ca{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 5px;
+    height: 10px;
+    text-decoration: none;
+    
+}
+.ca:hover{
+    color: purple;
+    background-color: white;
+   
+}
+main {
+    position: relative;
+    overflow: hidden; /* Hide the overflowing slides */
+    height: 500px; /*because of the absolute position of the child it is neccessory to give height to the main container other wise the child might collapse to zero height */
+    
+    
+}
+.content{
+    color: white;
+}
+.slide{
+    background-color: purple;
+    width: 100%;
+    border-radius: 0 0 200px 0px;
+    position: absolute;
+}
+.prime-text{
+    font-size: 80px;
+    margin-bottom: 5px;
+}
+.secondary-text{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.slide{
+    display: flex;
+    
+}
+.content{
+    display:flex ;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1    ;
+}
+.contactus{
+    display: flex;
+    justify-content: center;
+    
+}
+section{
+    text-align: center;
+    padding: 10px;
+    
+}

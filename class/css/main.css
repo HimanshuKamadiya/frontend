@@ -1,0 +1,35 @@
+.show{
+    display: inline;
+    background-color: yellowgreen;
+}
+.left{
+    display: inline;
+}
+.right{
+    display: inline;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.form-group {
+    margin-bottom: 10px; /* Spacing between input fields */
+}
+
+label {
+    display: inline-block;
+    width: 100px; /*given labels width to align with inputs */
+    
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Optional: add spacing above the button */
+}
+
+button {
+    padding: 10px 20px; /* Optional: adjust button size */
+}
